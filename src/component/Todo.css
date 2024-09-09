@@ -1,0 +1,60 @@
+.todo{
+    padding: 0 35%;
+    margin-top: 50px;
+}
+.todo h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    border-bottom: 1px solid #004872;
+}
+.todo .mb-3{
+    margin-right: 20px;
+}
+.todo label{
+    margin-left: 15px;
+    font-weight: 500;
+}
+.todo button{
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+.todo input[type=checkbox]{
+    border-radius: 50%;
+}
+
+.createTodo{
+    padding: 0 35%;
+}
+.createTodo h1{
+    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: white;
+    /* -webkit-background-clip: text;
+    color: transparent; */
+    font-size: 50px;
+
+}
+.createTodo .content{
+    display: flex;
+    justify-content: space-between;
+}
+.createTodo input{
+    padding: 15px;
+    font-size: 15px;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 2px 3px 5px 0px rgb(0, 0, 0) ;
+    outline: none;
+    
+}
+.createTodo button{
+    padding: 10px;
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px 0px rgb(0, 0, 0) ;
+}
