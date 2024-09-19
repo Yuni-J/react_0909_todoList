@@ -4,7 +4,7 @@ import './Todo.css'
 const CreateTodo = ({ todotext, onChange, onCreate }) => {
     return (
         <div className='createTodo'>
-            <h1>TODO List</h1>
+            <h1>TODO LIST</h1>
             <div className='content'>
                 <input 
                     type="text"

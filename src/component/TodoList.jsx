@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useRef } from 'react';
 import CreateTodo from './CreateTodo';
 import Todo from './Todo';
+import './Todo.css';
 
 const TodoList = () => {
     const nextId = useRef(1);
@@ -48,7 +49,7 @@ const TodoList = () => {
 
     const onToggle = (id)=>{
         setTodos(todos.map(t=>
-            t.id === id ? {...t, active: !t.active} : t
+            t.id === id ? {...t, checked: !t.checked} : t
         ))
     }
 
